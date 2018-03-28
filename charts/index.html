@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chart</title>
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+<!-- <link rel="stylesheet" type="text/css" href="../styles/user/style.css"> -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<script src="../lib/angular/angular.min.js"></script>
+ <!--  <script src="../lib/angular/angular-route.min.js"></script> -->
+
+    
+<!--Char plugin-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script> 
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css"></script>  -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0-rc.1/Chart.js"></script> 
+     <script src="https://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.js"></script> 
+<!--Char plugin-->
+
+
+     <script src="js/module/user_module.js"> </script>
+    <script src="js/controllers/chart_controller.js"></script> 
+     <script src="js/controllers/lineBundle.js"></script> 
+
+   <style type="text/css">
+     p {
+    margin: 0 0 -9px;
+    padding-left: 39px;
+    display: none;
+}
+
+.YourShare {
+    background-color: #3498db;
+   
+    padding: 0px 3px 0px 19px;
+     border-radius:14px;
+}
+
+.efsolShare
+{
+     background-color: gray;
+    
+    padding: 0px 3px 0px 19px;
+     border-radius:14px;
+}
+
+
+
+
+
+.rental
+{
+     background-color: #dbdbdb;
+    
+    padding: 0px 3px 0px 19px;
+    border-radius:14px;
+}
+
+  
+
+.musharakahShare
+{
+     background-color: #96bacc;
+    
+    padding: 0px 3px 0px 19px;
+     border-radius:14px;
+    
+
+}
+   </style>
+ 
+</head>
+
+<body ng-app="lineChart" ng-controller="ChartCtrl">
+
+<span ng-repeat="data in graphData"><pre>{{data}}</pre></span>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container" >
+    <div class="row">
+        <div class="col-md-6">
+
+          <div class="row">
+                <div class="col-md-2">
+
+                  <p>2,090.00</p><br>
+                  <p>2,080.00</p><br>
+                  <p>2,070.00</p><br>
+                  <p>2,060.00</p><br>
+                  <p>2,050.00</p><br>
+                  <p>2,040.00</p><br>
+                  <p>2,030.00</p>
+
+                </div>
+                
+              
+                <div class="col-md-10">
+                   <h3>Benefits of extra payments</h3><br/> 
+                <h4>Musharakah Share&nbsp;&nbsp;<span class="musharakahShare"></span></h4>
+                 <h4>Rental &nbsp;&nbsp;<span class="rental"></span></h4>
+               <br>
+                   <canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-options="options" chart-dataset-override="datasetOverride">
+                   </canvas>
+                </div>
+          </div>
+           
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-2">
+
+              <p>53.00%</p><br>
+              <p>52.00%</p><br>
+              <p>51.00%</p><br>
+              <p>50.00%</p><br>
+              <p>49.00%</p><br>
+              <p>48.00%</p><br>
+              <p>47.00%</p>
+
+            </div>
+            <div class="col-md-10">
+             
+                    <h3>Your share(%) progress over last 6 months</h3><br/> 
+                      <h4>Share &nbsp;&nbsp;<span class="musharakahShare"></span></h4>
+                             <br/>        
+                             
+               <canvas id="line" class="chart chart-line" chart-data="data1" chart-labels="labels1" chart-series="series1">
+              </canvas>
+            </div>
+
+          </div>
+           
+        </div>   
+    </div>
+                 <br><br>
+    <div class="row">
+      
+          <div class="col-md-6">
+
+          <!--   <canvas id="pie" class="chart chart-pie " 
+               chart-data="data" chart-labels="labels" chart-options="options">
+                 </canvas>  -->
+                
+               
+
+
+                <div class="row">
+                          <div class="col-md-2">
+
+                            <p>53.00%</p><br>
+                            <p>52.00%</p><br>
+                            <p>51.00%</p><br>
+                            <p>50.00%</p><br>
+                            <p>49.00%</p><br>
+                            <p>48.00%</p><br>
+                            <p>47.00%</p>
+
+                          </div>
+                          <div class="col-md-10">
+                               
+                              <h3>Your Musharakah Share Look like </h3><br/> 
+                              <h4>Your Share &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="YourShare"></span></h4>
+                               <h4>EFSOL Share &nbsp;&nbsp;&nbsp;<span class="efsolShare"></span></h4>
+                            
+                                    <br/> 
+                                 <canvas id="myChart"></canvas>
+                          </div>
+
+                </div>
+          </div>
+    
+          <div class="col-md-6">
+
+                       <div class="row">
+                              <div class="col-md-2">
+
+                                <p>2,090.00</p><br>
+                                <p>2,080.00</p><br>
+                                <p>2,070.00</p><br>
+                                <p>2,060.00</p><br>
+                                <p>2,050.00</p><br>
+                                <p>2,040.00</p><br>
+                                <p>2,030.00</p>
+
+                              </div>
+                             
+                                    
+                               
+                              <div class="col-md-10">
+                                <h3>Musharakah Balance Vs Period</h3><br/> 
+                                    <h4>Musharakah Balance &nbsp;&nbsp;<span class="musharakahShare"></span></h4>
+                                     <br/> 
+                                <canvas id="line" class="chart chart-line" chart-data="data2" chart-labels="labels2"    chart-series="series2">
+                                 </canvas>
+                              </div>
+                        </div>
+         
+                
+          </div>
+
+
+    </div>
+
+
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

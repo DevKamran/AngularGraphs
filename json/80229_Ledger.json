@@ -1,0 +1,202 @@
+[
+	{
+		"Date":" Nov 2017",
+	    "Journals":"3:49:19 PM",
+        "Desc":"EHS",
+        "Deposit":"336",
+        "Withdraw":"Kashif Fazal",
+        "Adj_in":"SuperAdmin",
+        "Adj_out":"MAHBUBUR RAHMAN & REZWANA MUKTADIR ",
+        "beg_balance":"80229",
+        "client_profile_image":null,
+        "contactEmail":"mrahman@live.com.au"
+    
+    },
+    {
+        "Date":"2015-08-18T00:00:00",
+        "Journals":"",
+        "Desc":"Amount Invested",
+        "Deposit":"100",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":100,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+    {
+        "Date":"2015-09-30T00:00:00",
+        "Journals":"",
+        "Desc":"Profit credited for the Qtr 3, 2015 for 43 days",
+        "Deposit":"0.82",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":100,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+    {
+        "Date":"2015-11-24T00:00:00",
+        "Journals":"",
+        "Desc":"Amount Invested",
+        "Deposit":"2000",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":2100,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+
+    {
+        "Date":"2015-12-14T00:00:00",
+        "Journals":"",
+        "Desc":"Amount Invested",
+        "Deposit":"2000",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":4100,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+    {
+        "Date":"2015-12-17T00:00:00",
+        "Journals":"",
+        "Desc":"Amount Invested",
+        "Deposit":"3000",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":7100,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+
+    {   
+        "Date":"2015-12-31T00:00:00",
+        "Journals":"",
+        "Desc":"Profit credited for the Qtr 4, 2015 for 91 days",
+        "Deposit":"26.6",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":7127,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+
+    {
+        "Date":"2016-03-31T00:00:00",
+        "Journals":"",
+        "Desc":"Profit credited for the Qtr 1, 2016 for 90 days",
+        "Deposit":"70.3",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":7197,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+
+    {
+        "Date":"2016-06-30T00:00:00",
+        "Journals":"",
+        "Desc":"Profit credited for the Qtr 2, 2016 for 90 days",
+        "Deposit":"70.99",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":7268,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+    {
+        "Date":"2016-09-30T00:00:00",
+        "Journals":"",
+        "Desc":"Profit credited for the Qtr 3, 2016 for 91 days",
+        "Deposit":"36.24","Withdraw":"",
+        "Adj_in":"","Adj_out":"",
+        "beg_balance":7304,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+    {
+        "Date":"2016-12-28T00:00:00",
+        "Journals":"",
+        "Desc":"Amount Invested",
+        "Deposit":"23000",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":30304,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+
+    {
+
+	    "Date":"2016-12-31T00:00:00",
+	    "Journals":"",
+	    "Desc":"Profit credited for the Qtr 4, 2016 for 91 days",
+	    "Deposit":"10.05",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":30315,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+    {
+        "Date":"2017-03-31T00:00:00",
+        "Journals":"",
+        "Desc":"Profit credited for the Qtr 1, 2017 for 89 days",
+        "Deposit":"36.96",
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":30351,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+
+    {
+        "Date":"2017-06-30T00:00:00",
+        "Journals":"MJ",
+        "Desc":"Profit created for quarter of April 2017 to June 2017",
+        "Deposit":38.22,
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":30390,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+
+    {
+        "Date":"2017-09-30T00:00:00",
+        "Journals":"MJ",
+        "Desc":"Hidden-EasyHome Saver Profit\/Loss Appropriation",
+        "Deposit":"",
+        "Withdraw":12.49,
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":30377,
+        "client_profile_image":"",
+        "contactEmail":""
+    },
+    
+    {
+        "Date":"2017-09-30T00:00:00",
+        "Journals":"MJ",
+        "Desc":"Profit credited for quarter of July 2017 to September 2017",
+        "Deposit":38.64,
+        "Withdraw":"",
+        "Adj_in":"",
+        "Adj_out":"",
+        "beg_balance":30416,
+        "client_profile_image":"",
+        "contactEmail":""
+    }
+]
